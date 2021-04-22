@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="rP7-BI-F4p">
+                                <rect key="frame" x="58" y="601" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="mDy-gc-oZe">
+                                <rect key="frame" x="182" y="585" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="4t9-E0-tLQ">
+                                <rect key="frame" x="81" y="514" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="fiL-l5-FIP">
+                                <rect key="frame" x="246" y="498" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="VPQ-al-hl8">
+                                <rect key="frame" x="201" y="677" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="Ij5-Fv-vMt">
+                                <rect key="frame" x="138" y="244" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="JKn-3O-KOU">
+                                <rect key="frame" x="81" y="132" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="QR5-tB-efr">
+                                <rect key="frame" x="96" y="44" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="TqQ-0X-N2v">
+                                <rect key="frame" x="274" y="117" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="a3u-yE-yq4">
+                                <rect key="frame" x="297" y="305" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="wez-CN-VMn">
+                                <rect key="frame" x="20" y="305" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="EfE-lO-IhB">
+                                <rect key="frame" x="321" y="448" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="gpe-rY-uK8">
+                                <rect key="frame" x="284" y="578" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="PyN-zV-IbV">
+                                <rect key="frame" x="266" y="748" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="plc-iW-CxT">
+                                <rect key="frame" x="55" y="714" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="9U8-VK-zjT">
+                                <rect key="frame" x="145" y="779" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="YTH-sw-98T">
+                                <rect key="frame" x="235" y="195" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="c7j-oW-p9U">
+                                <rect key="frame" x="185" y="34" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="hpX-MX-yKh">
+                                <rect key="frame" x="340" y="47" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="1gf-bZ-wPU">
+                                <rect key="frame" x="12" y="439" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="s16-oA-Aww">
+                                <rect key="frame" x="340" y="232" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="z4L-de-uOp">
+                                <rect key="frame" x="191" y="353" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="J3d-qI-4al">
+                                <rect key="frame" x="191" y="458" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="uds-YI-gIr">
+                                <rect key="frame" x="28" y="176" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-bubble-48" translatesAutoresizingMaskIntoConstraints="NO" id="mqc-Pu-wl5">
+                                <rect key="frame" x="113" y="346" width="51" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="bubbles" destination="rP7-BI-F4p" collectionClass="NSMutableArray" id="zgj-FO-Kzq"/>
+                        <outletCollection property="bubbles" destination="4t9-E0-tLQ" collectionClass="NSMutableArray" id="Enc-OP-pKd"/>
+                        <outletCollection property="bubbles" destination="VPQ-al-hl8" collectionClass="NSMutableArray" id="n3N-9J-EzV"/>
+                        <outletCollection property="bubbles" destination="mDy-gc-oZe" collectionClass="NSMutableArray" id="6ie-EC-WdL"/>
+                        <outletCollection property="bubbles" destination="fiL-l5-FIP" collectionClass="NSMutableArray" id="eA9-iD-pHK"/>
+                        <outletCollection property="bubbles" destination="a3u-yE-yq4" collectionClass="NSMutableArray" id="J5Y-wi-qGd"/>
+                        <outletCollection property="bubbles" destination="mqc-Pu-wl5" collectionClass="NSMutableArray" id="p59-EG-wRa"/>
+                        <outletCollection property="bubbles" destination="wez-CN-VMn" collectionClass="NSMutableArray" id="AVm-Eu-n3k"/>
+                        <outletCollection property="bubbles" destination="Ij5-Fv-vMt" collectionClass="NSMutableArray" id="uuk-pg-AM5"/>
+                        <outletCollection property="bubbles" destination="TqQ-0X-N2v" collectionClass="NSMutableArray" id="hDl-1g-Uz8"/>
+                        <outletCollection property="bubbles" destination="JKn-3O-KOU" collectionClass="NSMutableArray" id="6FN-sW-UPR"/>
+                        <outletCollection property="bubbles" destination="QR5-tB-efr" collectionClass="NSMutableArray" id="T6O-U6-pjG"/>
+                        <outletCollection property="bubbles" destination="c7j-oW-p9U" collectionClass="NSMutableArray" id="3Fw-qH-XNE"/>
+                        <outletCollection property="bubbles" destination="uds-YI-gIr" collectionClass="NSMutableArray" id="mND-EA-dM6"/>
+                        <outletCollection property="bubbles" destination="YTH-sw-98T" collectionClass="NSMutableArray" id="rKe-56-bII"/>
+                        <outletCollection property="bubbles" destination="hpX-MX-yKh" collectionClass="NSMutableArray" id="s9d-j6-B1C"/>
+                        <outletCollection property="bubbles" destination="s16-oA-Aww" collectionClass="NSMutableArray" id="ANN-M0-vJO"/>
+                        <outletCollection property="bubbles" destination="z4L-de-uOp" collectionClass="NSMutableArray" id="9S1-VV-k2b"/>
+                        <outletCollection property="bubbles" destination="EfE-lO-IhB" collectionClass="NSMutableArray" id="QlF-gi-qqH"/>
+                        <outletCollection property="bubbles" destination="J3d-qI-4al" collectionClass="NSMutableArray" id="o2N-jq-j9C"/>
+                        <outletCollection property="bubbles" destination="1gf-bZ-wPU" collectionClass="NSMutableArray" id="ccR-PM-hyu"/>
+                        <outletCollection property="bubbles" destination="gpe-rY-uK8" collectionClass="NSMutableArray" id="l2q-0i-aK9"/>
+                        <outletCollection property="bubbles" destination="plc-iW-CxT" collectionClass="NSMutableArray" id="Zz4-89-2a6"/>
+                        <outletCollection property="bubbles" destination="9U8-VK-zjT" collectionClass="NSMutableArray" id="6Ps-nJ-M61"/>
+                        <outletCollection property="bubbles" destination="PyN-zV-IbV" collectionClass="NSMutableArray" id="qVP-7Z-vRy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-bubble-48" width="48" height="48"/>
+    </resources>
+</document>
