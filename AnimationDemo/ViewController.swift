@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var bubbles: [UIImageView]!
-    
+    var timer: Timer?
     
     var position = 0
     override func viewDidLoad() {
@@ -18,15 +18,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches {
-            startAnimation((Any).self)
-        }
-    }
 
     @IBAction func startAnimation(_ sender: Any) {
         
-        UIView.animate(withDuration: 3.0, delay: 0, usingSpringWithDamping: 2, initialSpringVelocity: 0, options: [], animations: {
+        UIView.animate(withDuration: 7.0, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: [], animations: {
             
             for b in self.bubbles {
                 b.center.x = CGFloat(Int.random(in: 0...414))
@@ -34,12 +29,22 @@ class ViewController: UIViewController {
             }
             
         }, completion: nil)
-        
-        Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(updateData), userInfo: nil, repeats: true)
+        if timer == nil {
+            timer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(updateData), userInfo: nil, repeats: true)
+        }
     }
     
     @objc func updateData() {
             startAnimation((Any).self)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+            if self.timer != nil {
+                self.timer!.invalidate()
+                self.timer = nil
+            } else {
+                startAnimation((Any).self)
+            }
     }
 }
 

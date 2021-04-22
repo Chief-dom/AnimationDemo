@@ -117,7 +117,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.098679557457170317" green="0.0" blue="0.38736023565735478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outletCollection property="bubbles" destination="rP7-BI-F4p" collectionClass="NSMutableArray" id="zgj-FO-Kzq"/>
