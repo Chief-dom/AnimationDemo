@@ -1,24 +1,23 @@
 //
-//  ViewController.swift
+//  AppVC.swift
 //  AnimationDemo
 //
 //  Created by Dominik Huffield on 4/22/21.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class AppView: UIViewController {
+    
     @IBOutlet var bubbles: [UIImageView]!
     var timer: Timer?
     
-    var position = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
     @IBAction func startAnimation(_ sender: Any) {
         
         UIView.animate(withDuration: 10.0, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 0.3, options: [], animations: {
@@ -47,6 +46,4 @@ class ViewController: UIViewController {
             }
     }
     
-    
 }
-
